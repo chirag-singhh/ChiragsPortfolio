@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Building trust through consistent communication and client-centered collaboration ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Always in sync — no matter the zone.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building an Ai Resume Builder",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Let’s get your project off the ground.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1 }",
     // className: "lg:col-span-2 md:col-span-3 md:row-span-2",
@@ -71,71 +71,109 @@ export const gridItems = [
   },
 ];
 
+// export const projects = [
+//   {
+//    id: 1,
+//     title: "Gramchat- One to One Chatting Application",
+//     des: "A Application with real-time chatting and a responsive UI.",
+//     img: "/p1.png",
+//     iconLists: ["/re.svg", "/tail.svg", "/js.png","/node.png"],
+//     link: "https://chat-app-jtx2.onrender.com/login",
+//     sourceCode: "https://github.com/chirag-singhh/Chat-app",
+//   },
+//   {
+//     id: 2,
+//     title: "Yoom - Video Conferencing App",
+//     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+//     img: "/p2.svg",
+//     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+//     link: "https://github.com/adrianhajdin/zoom-clone",
+//   },
+//   {
+//     id: 3,
+//     title: "AI Image SaaS - Canva Application",
+//     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+//     img: "/p3.svg",
+//     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+//     link: "https://github.com/adrianhajdin/ai_saas_app",
+//   },
+//   {
+//     id: 4,
+//     title: "Animated Apple Iphone 3D Website",
+//     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+//     img: "/p4.svg",
+//     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+//     link: "https://github.com/adrianhajdin/iphone",
+//   },
+// ];
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Gramchat- One to One Chatting Application",
+    des: "A Application with real-time chatting and a responsive UI.",
+    img: "/p1.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.png","/node.png"],
+    link: "https://chat-app-jtx2.onrender.com/login",
+    sourceCode: "https://github.com/chirag-singhh/Chat-app",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "Duocortex Landing Page",
+    des: "Simple Landing Page with responsive UI",
+    img: "/p2.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.png"],
+    link: "https://duocortex.in/",
+    sourceCode: "https://github.com/chirag-singhh/Duocortex-Landing",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "SteadySteps-A habit tracker App",
+    des: "A WebApp which manages and track your Habit.",
+    img: "/p3.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.png","/node.png"],
+    link: "https://github.com/chirag-singhh/HABIT-TRACKER",
+    sourceCode: "https://github.com/chirag-singhh/HABIT-TRACKER",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "AI Resume Builder",
+    des: "A Application For making Resume's.",
+    img: "/p4.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.png","/node.png", "/three.svg"],
+    link: "https://github.com/chirag-singhh/Ai-resume",
+    sourceCode: "https://github.com/chirag-singhh/Ai-resume",
   },
-];
-
+] ;
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    "Working with Chirag Singh was an absolute pleasure. Their professionalism, responsiveness, and commitment to excellence were evident from start to finish. Chirag Singh brings genuine passion to every aspect of development, making them stand out in the field. If you're looking to elevate your website and build a strong digital presence, Chirag Singh is the partner you can trust.",
+    name: "Ankit Rajput",
+    title: "Founder of Duocortex",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    "Working with Chirag Singh was an absolute pleasure. Their professionalism, responsiveness, and commitment to excellence were evident from start to finish. Chirag Singh brings genuine passion to every aspect of development, making them stand out in the field. If you're looking to elevate your website and build a strong digital presence, Chirag Singh is the partner you can trust.",
+    name: "Ankit Rajput",
+    title: "Founder of Duocortex",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michaehl Johnson",
-    title: "Director of AlphaStream Technologies",
+    "Working with Chirag Singh was an absolute pleasure. Their professionalism, responsiveness, and commitment to excellence were evident from start to finish. Chirag Singh brings genuine passion to every aspect of development, making them stand out in the field. If you're looking to elevate your website and build a strong digital presence, Chirag Singh is the partner you can trust.",
+    name: "Ankit Rajput",
+    title: "Founder of Duocortex",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michhae Johnson",
-    title: "Director of AlphaStream Technologies",
+    "Working with Chirag Singh was an absolute pleasure. Their professionalism, responsiveness, and commitment to excellence were evident from start to finish. Chirag Singh brings genuine passion to every aspect of development, making them stand out in the field. If you're looking to elevate your website and build a strong digital presence, Chirag Singh is the partner you can trust.",
+    name: "Ankit Rajput",
+    title: "Founder of Duocortex",
   },
-  {
+   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    "Working with Chirag Singh was an absolute pleasure. Their professionalism, responsiveness, and commitment to excellence were evident from start to finish. Chirag Singh brings genuine passion to every aspect of development, making them stand out in the field. If you're looking to elevate your website and build a strong digital presence, Chirag Singh is the partner you can trust.",
+    name: "Ankit Rajput",
+    title: "Founder of Duocortex",
   },
 ];
 
@@ -172,49 +210,95 @@ export const companies = [
   },
 ];
 
+// export const workExperience = [
+//   {
+//     id: 1,
+//     title: "Frontend Engineer Intern",
+//     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+//     className: "md:col-span-2",
+//     thumbnail: "/exp1.svg",
+//   },
+//   {
+//     id: 2,
+//     title: "Mobile App Dev - JSM Tech",
+//     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+//     className: "md:col-span-2", // change to md:col-span-2
+//     thumbnail: "/exp2.svg",
+//   },
+//   {
+//     id: 3,
+//     title: "Freelance App Dev Project",
+//     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+//     className: "md:col-span-2", // change to md:col-span-2
+//     thumbnail: "/exp3.svg",
+//   },
+//   {
+//     id: 4,
+//     title: "Lead Frontend Developer",
+//     desc: "Developed and maintained user-facing features using modern frontend technologies.",
+//     className: "md:col-span-2",
+//     thumbnail: "/exp4.svg",
+//   },
+// ];
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "Frontend Developer Intern",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Web App Developer",
+    desc: "Designed and developed web app using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Project",
+    desc: "Freelancing for clients .",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Owasp TCET Web Team",
+    desc: "Developed and maintained user-facing features.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
-];
+] ;
+// export const socialMedia = [
+//   {
+//     id: 1,
+//     img: "/git.svg",
+//   },
+//   {
+//     id: 2,
+//     img: "/twit.svg",
+//   },
+//   {
+//     id: 3,
+//     img: "/link.svg",
+//   },
+// ];
 
 export const socialMedia = [
   {
-    id: 1,
+    name: "GitHub",
     img: "/git.svg",
+    link: "https://github.com/chirag-singhh",
   },
   {
-    id: 2,
+    name: "Twitter",
     img: "/twit.svg",
+    link: "https://twitter.com/",
   },
   {
-    id: 3,
+    name: "LinkedIn",
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/chirag-singhh/",
   },
-];
-
+] 
