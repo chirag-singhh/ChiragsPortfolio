@@ -221,7 +221,7 @@ export const companies = [
 //   {
 //     id: 2,
 //     title: "Mobile App Dev - JSM Tech",
-//     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+//     desc: "Designed and developed mobile app for both iOS & Android platforms using React Js.",
 //     className: "md:col-span-2", // change to md:col-span-2
 //     thumbnail: "/exp2.svg",
 //   },
@@ -251,7 +251,7 @@ export const workExperience = [
   {
     id: 2,
     title: "Web App Developer",
-    desc: "Designed and developed web app using React Native.",
+    desc: "Designed and developed web app using React JS.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
